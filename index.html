@@ -98,7 +98,7 @@
   <div class="ytd-l">xG CONCEDED</div>
   <div class="ytd-v num">1.20</div>
   <div class="ytd-last"><span>Last game <b class="num">1.32</b></span><span class="imp down">▲ +0.02 · worse</span></div>
-  <div class="ytd-bench"><span>Other top 6 avg <b class="num">1.28</b></span><span class="imp up">0.08 better</span></div>
+  <div class="ytd-bench"><span>Other top 6 avg <b class="num">1.27</b></span><span class="imp up">0.07 better</span></div>
   <svg class="spark" viewBox="0 0 220 54" preserveAspectRatio="none" aria-label="xG conceded"><rect class="D" x="0.0" y="21.0" width="25.8" height="33.0" rx="1.5"/><rect class="D" x="27.8" y="6.0" width="25.8" height="48.0" rx="1.5"/><rect class="W" x="55.5" y="38.3" width="25.8" height="15.7" rx="1.5"/><rect class="D" x="83.2" y="39.4" width="25.8" height="14.6" rx="1.5"/><rect class="W" x="111.0" y="37.5" width="25.8" height="16.5" rx="1.5"/><rect class="L" x="138.8" y="27.3" width="25.8" height="26.7" rx="1.5"/><rect class="W" x="166.5" y="35.6" width="25.8" height="18.4" rx="1.5"/><rect class="W last" x="194.2" y="26.5" width="25.8" height="27.5" rx="1.5"/><polyline points="12.9,21.0 40.6,13.5 68.4,21.8 96.1,26.2 123.9,28.5 151.6,28.3 179.4,29.3 207.1,29.0"/><line class="bench" x1="0" x2="220" y1="27.4" y2="27.4"/></svg>
 </div><div class="panel ytd-tile">
   <div class="ytd-l">POSSESSION</div>
@@ -143,6 +143,9 @@
 .fc-grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:16px;margin-top:16px}
 .fc-grid>*{min-width:0}
 @media (max-width:820px){.fc-grid{grid-template-columns:1fr}}
+.fc-mkt{width:100%;border-collapse:collapse;font-size:15px}.fc-mkt th{text-align:left;font-size:12px;opacity:.6;font-weight:600;padding:4px 8px}
+.fc-mkt td{padding:9px 8px;border-top:1px solid rgba(255,255,255,.07)}.fc-mkt td:not(:first-child),.fc-mkt th:not(:first-child){text-align:right}
+.fc-gap.up{color:var(--blue,#5b9bff)}.fc-gap.down{color:#e07a70}
 @media (max-width:560px){.fc-t td:nth-child(3){display:none}.fc-t td{padding:7px 4px}.fc-t td:first-child{white-space:nowrap}.fc-t .tag{display:none}}
 </style><div class="wrap">
   <div class="sec-head reveal"><div><div class="rule"></div><p class="kicker">2026-27 · Iraola's numbers, projected</p>
@@ -163,6 +166,11 @@
       <div class="fc-dist" style="grid-template-columns:repeat(20,1fr)" role="img" aria-label="Chance of each finishing position"><div class="fc-d za" title="1st: 0%"><b><i style="height:0.2%"></i></b><span>1</span></div><div class="fc-d za" title="2nd: 1%"><b><i style="height:3.9%"></i></b><span>2</span></div><div class="fc-d za" title="3rd: 6%"><b><i style="height:27.1%"></i></b><span>3</span></div><div class="fc-d za" title="4th: 20%"><b><i style="height:90.8%"></i></b><span>4</span></div><div class="fc-d zp" title="5th: 22%"><b><i style="height:100.0%"></i></b><span>5</span></div><div class="fc-d zp" title="6th: 16%"><b><i style="height:73.7%"></i></b><span>6</span></div><div class="fc-d" title="7th: 11%"><b><i style="height:50.7%"></i></b><span>7</span></div><div class="fc-d" title="8th: 8%"><b><i style="height:37.0%"></i></b><span>8</span></div><div class="fc-d" title="9th: 6%"><b><i style="height:25.0%"></i></b><span>9</span></div><div class="fc-d" title="10th: 4%"><b><i style="height:17.2%"></i></b><span>10</span></div><div class="fc-d" title="11th: 2%"><b><i style="height:10.9%"></i></b><span>11</span></div><div class="fc-d" title="12th: 2%"><b><i style="height:7.6%"></i></b><span>12</span></div><div class="fc-d" title="13th: 1%"><b><i style="height:5.4%"></i></b><span>13</span></div><div class="fc-d" title="14th: 1%"><b><i style="height:2.9%"></i></b><span>14</span></div><div class="fc-d" title="15th: 0%"><b><i style="height:1.1%"></i></b><span>15</span></div><div class="fc-d" title="16th: 0%"><b><i style="height:0.5%"></i></b><span>16</span></div><div class="fc-d" title="17th: 0%"><b><i style="height:0.2%"></i></b><span>17</span></div><div class="fc-d zr" title="18th: 0%"><b><i style="height:0.1%"></i></b><span>18</span></div><div class="fc-d zr" title="19th: 0%"><b><i style="height:0.0%"></i></b><span>19</span></div><div class="fc-d zr" title="20th: 0%"><b><i style="height:0.0%"></i></b><span>20</span></div></div>
       <p class="note">Most likely 5th, 60 points (80% between 51 and 69). Top 4 chance: 27%.</p></div>
   </div>
+  
+  <div class="panel" style="padding:16px;margin-top:16px"><h3 style="margin:0 0 4px">Our forecast v the market</h3>
+    <p class="note" style="margin:0 0 8px">The same chances as priced by a prediction market, where people trade on the outcome: a price of 20p for a share that pays £1 is a 20% chance. The gap is ours minus the market's, in percentage points.</p>
+    <table class="fc-mkt"><thead><tr><th></th><th>Our forecast</th><th>Market</th><th>Gap</th></tr></thead><tbody><tr><td>Win the league</td><td class="num">0%</td><td class="num">7%</td><td class="num fc-gap down">−7 pts</td></tr><tr><td>Champions League</td><td class="num">27%</td><td class="num">76%</td><td class="num fc-gap down">−50 pts</td></tr><tr><td>Relegated</td><td class="num">0%</td><td class="num">3%</td><td class="num fc-gap ">−3 pts</td></tr></tbody></table>
+    <p class="note">Market prices at 1 Nov, 18:30 (midpoint of the best buy and sell prices). Our Champions League figure is a top-4 finish; the market counts any way in, such as a 5th place won on European coefficients. The market also prices things our numbers can't see, like injuries, transfers or a points deduction.</p></div>
   <p class="note">Status: points won against the points each game's chances were worth (xG as Poisson scorelines); more than 0.3 a game either side is out- or under-performing. Projection: Iraola's Premier League averages so far (8 games), 70% chances (xG) and 30% actual goals, pulled toward the league average as if 10 average games came first so a short run doesn't count for too much; scaled by each opponent's scoring and conceding (halfway to the league average) with a home/away edge; other sides carry on at their points per game, a third of the way back to average. League games only.</p>
 </div></section>
 <section id="latest"><div class="wrap">
